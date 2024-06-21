@@ -14,7 +14,7 @@ const ExplorePage = () => {
     setRepos([]); // Clear previous repositories
 
     try {
-      // Fetching repositories from GitHub API
+      // Fetching repositories from GitHub API(Application Programming Interface)
       const res = await fetch(
         `https://api.github.com/search/repositories?q=language:${language}&sort=stars&order=desc&per_page=10`,
         {
