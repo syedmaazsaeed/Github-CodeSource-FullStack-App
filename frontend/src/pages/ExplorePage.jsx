@@ -1,68 +1,65 @@
-import { useState } from "react"; // Importing useState hook from React
-import Spinner from "../components/Spinner"; // Importing Spinner component
-import Repos from "../components/Repos"; // Importing Repos component
-import { toast } from "react-hot-toast"; // Importing toast for notifications
+import { useState } from "react";
+import Spinner from "../components/Spinner";
+import Repos from "../components/Repos";
+import { toast } from "react-hot-toast";
 
 const ExplorePage = () => {
-  const [loading, setLoading] = useState(false); // State for loading status
-  const [repos, setRepos] = useState([]); // State for storing fetched repositories
-  const [selectedLanguage, setSelectedLanguage] = useState(""); // State for selected language
+  const [loading, setLoading] = useState(false);
+  const [repos, setRepos] = useState([]);
+  const [selectedLanguage, setSelectedLanguage] = useState("");
 
-  // Function to fetch repositories based on the selected language
   const exploreRepos = async (language) => {
-    setLoading(true); // Set loading to true when fetching starts
-    setRepos([]); // Clear previous repositories
+    setLoading(true);
+    setRepos([]);
 
     try {
-      // Fetching repositories from GitHub API(Application Programming Interface)
       const res = await fetch(
         `https://api.github.com/search/repositories?q=language:${language}&sort=stars&order=desc&per_page=10`,
         {
           headers: {
-            authorization: `token ${import.meta.env.VITE_GITHUB_API_KEY}`, // Adding authorization token
+            authorization: `token ${import.meta.env.VITE_GITHUB_API_KEY}`,
           },
         }
       );
-      const data = await res.json(); // Parsing response to JSON
-      setRepos(data.items); // Setting fetched repositories to state
-      setSelectedLanguage(language); // Setting the selected language
+      const data = await res.json();
+      setRepos(data.items);
+      setSelectedLanguage(language);
     } catch (error) {
-      toast.error(error.message); // Display error message using toast
+      toast.error(error.message);
     } finally {
-      setLoading(false); // Set loading to false when fetching completes
+      setLoading(false);
     }
   };
-
   return (
-    <div className="px-4"> {/* Container padding */}
-      <div className="bg-glass max-w-2xl mx-auto rounded-md p-4"> {/* Glass effect background container */}
+    <div className="px-4">
+      <div className="bg-glass max-w-2xl mx-auto rounded-md p-4">
         <h1 className="text-xl font-bold text-center">
-          Explore Well-Known Repositories {/* Page title */}
+          Explore Well-Known Repositories
         </h1>
-        <div className="flex flex-wrap gap-2 my-2 justify-center"> {/* Container for language icons */}
+        <div className="flex flex-wrap gap-2 my-2 justify-center">
           <img
             src="/html.svg"
             alt="html logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("html")} // Fetch HTML repositories on click
+            onClick={() => exploreRepos("html")}
           />
           <img
             src="/css.svg"
             alt="css logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("css")} // Fetch CSS repositories on click
+            onClick={() => exploreRepos("css")}
           />
           <img
             src="/javascript.svg"
             alt="JavaScript logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("javascript")} // Fetch JavaScript repositories on click
+            onClick={() => exploreRepos("javascript")}
           />
           <img
             src="/typescript.svg"
             alt="TypeScript logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("typescript")} // Fetch TypeScript repositories on click
+            onClick={() => exploreRepos("typescript")}
           />
           {/* <img
             src="/c++.svg"
@@ -73,36 +70,36 @@ const ExplorePage = () => {
             src="/python.svg"
             alt="Python logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("python")} // Fetch Python repositories on click
+            onClick={() => exploreRepos("python")}
           />
           <img
             src="/java.svg"
             alt="Java logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("java")} // Fetch Java repositories on click
+            onClick={() => exploreRepos("java")}
           />
           <img
             src="/flutter.svg"
             alt="flutter logo"
             className="h-11 sm:h-20 cursor-pointer"
-            onClick={() => exploreRepos("dart")} // Fetch Dart (Flutter) repositories on click
+            onClick={() => exploreRepos("dart")}
           />
         </div>
         {repos.length > 0 && (
           <h2 className="text-lg font-semibold text-center my-4">
             <span className="bg-purple-100 text-purple-800 font-medium me-2 px-2.5 py-0.5 rounded-full ">
-              {selectedLanguage.toUpperCase()} {/* Display selected language */}
+              {selectedLanguage.toUpperCase()}{" "}
             </span>
-            Repositories {/* Subtitle */}
+            Repositories
           </h2>
         )}
         {!loading && repos.length > 0 && (
-          <Repos repos={repos} alwaysFullWidth /> // Display repositories when not loading
+          <Repos repos={repos} alwaysFullWidth />
         )}
-        {loading && <Spinner />} {/* Display spinner when loading */}
+        {loading && <Spinner />}
       </div>
     </div>
   );
 };
 
-export default ExplorePage; // Exporting ExplorePage component
+export default ExplorePage;

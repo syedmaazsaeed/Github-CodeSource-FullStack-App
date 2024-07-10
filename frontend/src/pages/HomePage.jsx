@@ -17,23 +17,17 @@ const HomePage = () => {
       setLoading(true);
       try {
         // You can only 60 requests per hour
-        const userRes = await fetch(
-          `https://api.github.com/users/${username}`,
-          {
-            header: {
-              authorization: `token ${import.meta.env.VITE_GITHUB_API_KEY}`,
-            },
-          }
+        // fetch form backend
+        const res = await fetch(
+          `http://localhost:5000/api/users/profile/${username}`
         );
-        const userProfile = await userRes.json();
+        const { repos, userProfile } = await res.json();
+        // console.log(userProfile, "userProfile");
 
-        setUserProfile(userProfile);
-
-        const repoRes = await fetch(userProfile.repos_url);
-        const repos = await repoRes.json();
         repos.sort((a, b) => new Date(b.created_at) - new Date(a.created_at)); // descending recent first
 
         setRepos(repos);
+        setUserProfile(userProfile);
         // console.log("userProfile:", userProfile);
         // console.log("repos:", repos);
         return { userProfile, repos };
