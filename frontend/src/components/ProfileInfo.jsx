@@ -7,20 +7,7 @@ import { formatMemberSince } from "../utils/functions";
 import LikeProfile from "./LikeProfile";
 
 const ProfileInfo = ({ userProfile }) => {
-	// const userProfile = {
-	// 	avatar_url: "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
-	// 	bio: "👨🏻‍💻👨🏻‍💻👨🏻‍💻",
-	// 	email: "johndoe@gmail.com",
-	// 	followers: 100,
-	// 	following: 200,
-	// 	html_url: "https://github.com/burakorkmez",
-	// 	location: "Somewhere, Earth",
-	// 	name: "John Doe",
-	// 	public_gists: 100,
-	// 	public_repos: 100,
-	// 	twitter_username: "johndoe",
-	// 	login: "johndoe",
-	// };
+	
 
 	const memberSince = formatMemberSince(userProfile?.created_at);
 
@@ -32,7 +19,7 @@ const ProfileInfo = ({ userProfile }) => {
 					<a href={userProfile?.html_url} target='_blank' rel='noreferrer'>
 						<img src={userProfile?.avatar_url} className='rounded-md w-24 h-24 mb-2' alt='' />
 					</a>
-					{/* View on Github */}
+					{/* View on Github CodeSource App */}
 
 					<div className='flex gap-2 items-center flex-col'>
 						<LikeProfile userProfile={userProfile} />
@@ -43,7 +30,7 @@ const ProfileInfo = ({ userProfile }) => {
 							className='bg-glass font-medium w-full text-xs p-2 rounded-md cursor-pointer border border-blue-400 flex items-center gap-2'
 						>
 							<FaEye size={16} />
-							View on Github
+							View on Github CodeSource App 
 						</a>
 					</div>
 				</div>

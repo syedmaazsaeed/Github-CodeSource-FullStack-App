@@ -33,4 +33,5 @@ const LikeProfile = ({ userProfile }) => {
 		</button>
 	);
 };
+
 export default LikeProfile;
