@@ -6,7 +6,7 @@
   Explore GitHub repositories and manage user profiles effortlessly!
 </p>
 
-🌟 Features
+<h1 align="center">🌟 Features 🚀</h1>
 
 Explore Popular Repositories 📊
 Discover trending repositories based on programming languages.
@@ -15,9 +15,9 @@ View detailed user profiles and their repositories.
 Like and manage liked profiles seamlessly.
 
 
-🛠️ Technologies Used
+<h1 align="center">🛠️ Technologies Used 🚀</h1>
 
-Frontend 🌈
+<h1>Frontend 🌈 </h1>
 
 React - A powerful JavaScript library for building user interfaces.
 
@@ -25,7 +25,7 @@ Redux (optional) - State management for React applications.
 
 HTML5, CSS3, JavaScript - Frontend essentials for structure, style, and interactivity.
 
-Backend 💻
+<h1>Backend 💻 🚀</h1>
 
 Node.js - A runtime environment for executing JavaScript on the server side.
 
@@ -37,9 +37,9 @@ Passport.js - Authentication middleware for Node.js, integrating with GitHub OAu
 
 GitHub API - Integration for fetching repository and user data.
 
-🚀 Getting Started
+<h1 align="center">🚀 Getting Started 🚀</h1>
 
-Prerequisites
+<h1> Prerequisites </h1>
 
 Node.js and npm installed on your machine.
 
@@ -47,31 +47,31 @@ MongoDB database connection string.
 
 GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
-Installation
+<h1 align="center">Installation 🚀</h1>
 
-Clone the repository:
+<h1>Clone the repository: 🚀</h1>
 
 git clone https://github.com/syedmaazsaeed/github-codesource-app.git
 cd github-codesource-app
 
-Install dependencies:
+<h1>Install dependencies: 🚀</h1>
 
 npm install
 
-Set up environment variables:
+<h1>Set up environment variables: </h1>
 
 Create a .env file in the root directory.
 
-Add the following environment variables:
+<h1>Add the following environment variables: </h1>
 
 PORT=5000
-CLIENT_BASE_URL=http://localhost:3000   # Your frontend URL
+CLIENT_BASE_URL=http://localhost:3000   # frontend URL
 GITHUB_CLIENT_ID=your_github_client_id
 GITHUB_CLIENT_SECRET=your_github_client_secret
 GITHUB_API_KEY=your_github_api_key
 MONGO_URI=your_mongodb_connection_string
 
-Start the server:
+<h1> Start the server: </h1>
 
 npm run dev
 
