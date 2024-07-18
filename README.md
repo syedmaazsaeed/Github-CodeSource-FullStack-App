@@ -1,7 +1,8 @@
 <h1 align="center">Github CodeSource App 🚀</h1>
 <p align="center">
-  <img src="link/to/your/logo.png" alt="Github CodeSource App Logo" width="200">
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/raw/main/frontend/dist/logo.png" alt="Github CodeSource App Logo" width="200">
 </p>
+
 <p align="center">
  Github CodeSource App is a cutting-edge web application designed to revolutionize your GitHub experience. With its intuitive and user-friendly interface, users can effortlessly explore and discover trending repositories based on programming languages. Dive deep into detailed user profiles and repository information, all within a streamlined and efficient platform.
 </p>
