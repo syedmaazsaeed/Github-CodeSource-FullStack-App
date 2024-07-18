@@ -26,16 +26,20 @@ HTML5, CSS3, JavaScript - Frontend essentials for structure, style, and interact
 **Backend**
 
 Node.js - A runtime environment for executing JavaScript on the server side.
+
 Express.js - Fast, unopinionated, minimalist web framework for Node.js.
+
 MongoDB - A NoSQL database for storing application data.
+
 Passport.js - Authentication middleware for Node.js, integrating with GitHub OAuth.
+
 GitHub API - Integration for fetching repository and user data.
 
 
 🚀 **Getting Started**
 
 **Prerequisites**
-Node.js and npm installed on your machine.
+Node.js and npm are installed on your system.
 MongoDB database connection string.
 GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
