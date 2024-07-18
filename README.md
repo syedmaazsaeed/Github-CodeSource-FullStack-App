@@ -18,7 +18,9 @@ Like and manage liked profiles seamlessly.
 **Frontend**
 
 React - A powerful JavaScript library for building user interfaces.
+
 Redux (optional) - State management for React applications.
+
 HTML5, CSS3, JavaScript - Frontend essentials for structure, style, and interactivity.
 
 **Backend**
