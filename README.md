@@ -61,7 +61,7 @@ GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
 <div align="center">
   <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Main-Section.png" alt="Github CodeSource Main Page" style="max-width: 100%; margin-bottom: 20px;">
-  <be> <br>
+  <br> <br>
   
   <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Login-section.png" alt="Github CodeSource LoginPage" style="max-width: 100%; margin-bottom: 20px;">
   <br> <br>
