@@ -59,18 +59,24 @@ GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
 <h1 align="center">🖼️ Screenshots 📸</h1>
 
-<div align="center">
-  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Main-Section.png" alt="Github CodeSource Main Page" style="max-width: 100%; margin-bottom: 20px;">
-  <br> <br>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Main-Section.png" alt="Github CodeSource Main Page" style="max-width: 100%; border: 2px solid transparent; transition: border-color 0.3s ease-in-out;">
   
-  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Login-section.png" alt="Github CodeSource LoginPage" style="max-width: 100%; margin-bottom: 20px;">
-  <br> <br>
-  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-SignUp-section.png" alt="Github CodeSource SignUp Page" style="max-width: 100%; margin-bottom: 20px;">
-  <br> <br>
-  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Explore.png" alt="Github CodeSource Explore Page" style="max-width: 100%;">
-<br> <br>
-  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Likes.png" alt="Github CodeSource Likes Page" style="max-width: 100%; margin-bottom: 20px;">
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Login-section.png" alt="Github CodeSource LoginPage" style="max-width: 100%; border: 2px solid transparent; transition: border-color 0.3s ease-in-out;">
+  
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-SignUp-section.png" alt="Github CodeSource SignUp Page" style="max-width: 100%; border: 2px solid transparent; transition: border-color 0.3s ease-in-out;">
+  
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Explore.png" alt="Github CodeSource Explore Page" style="max-width: 100%; border: 2px solid transparent; transition: border-color 0.3s ease-in-out;">
+  
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Likes.png" alt="Github CodeSource Likes Page" style="max-width: 100%; border: 2px solid transparent; transition: border-color 0.3s ease-in-out;">
 </div>
+
+<style>
+  /* Optional: Additional CSS for hover effect */
+  img:hover {
+    border-color: #333;
+  }
+</style>
 
 
 <h1 align="center">Installation 🌐 </h1>
