@@ -23,6 +23,8 @@ Interactive Visualizations 📈: Enjoy interactive visualizations of user contri
 
 <h1 align="center">🛠️ Technologies Used 🕵🏻</h1>
 
+### <h1> <b>MERN Stack 🌐</b> </h1>
+
 <h1>Frontend 🌈 </h1>
 
 React - A powerful JavaScript library for building user interfaces.
