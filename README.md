@@ -61,11 +61,13 @@ GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
 <div align="center">
   <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Main-Section.png" alt="Github CodeSource Main Page" style="max-width: 100%; margin-bottom: 20px;">
+  <br>
   
   <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Login-section.png" alt="Github CodeSource LoginPage" style="max-width: 100%; margin-bottom: 20px;">
   <br>
-  <img src="[path/to/screenshot3.png](https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-SignUp-section.png)" alt="Github CodeSource SignUp Page" style="max-width: 100%; margin-bottom: 20px;">
-  <img src="[path/to/screenshot4.png](https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Explore.png)" alt="Github CodeSource Explore Page" style="max-width: 100%;">
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-SignUp-section.png" alt="Github CodeSource SignUp Page" style="max-width: 100%; margin-bottom: 20px;">
+  <br>
+  <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Explore.png" alt="Github CodeSource Explore Page" style="max-width: 100%;">
 <br>
   <img src="https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App/blob/main/frontend/src/Images/Github-Likes.png" alt="Github CodeSource Likes Page" style="max-width: 100%; margin-bottom: 20px;">
 </div>
