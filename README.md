@@ -59,7 +59,7 @@ GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
 <h1>Clone the repository:♨️ </h1>
 
-git clone https://github.com/syedmaazsaeed/github-codesource-app.git
+git clone (https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App.git)
 
 cd github-codesource-app
 
