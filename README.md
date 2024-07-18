@@ -55,6 +55,18 @@ MongoDB database connection string.
 
 GitHub OAuth credentials (Client ID, Client Secret, API Key).
 
+
+<h1 align="center">🖼️ Screenshots 📸</h1>
+
+<div align="center">
+  <img src="path/to/screenshot1.png" alt="Screenshot 1" style="max-width: 100%; margin-bottom: 20px;">
+  <img src="path/to/screenshot2.png" alt="Screenshot 2" style="max-width: 100%; margin-bottom: 20px;">
+  <br>
+  <img src="path/to/screenshot3.png" alt="Screenshot 3" style="max-width: 100%; margin-bottom: 20px;">
+  <img src="path/to/screenshot4.png" alt="Screenshot 4" style="max-width: 100%;">
+</div>
+
+
 <h1 align="center">Installation 🌐 </h1>
 
 <h1>Clone the repository:♨️ </h1>
@@ -103,7 +115,9 @@ GET /api/explore/repos/:language
 <h1>User Profiles: </h1>
 
 GET /api/users/profile/:username
+
 POST /api/users/like/:username
+
 GET /api/users/likes
 
 <h1 align="center">🤝 Contributing 👨🏿‍💻 </h1>
