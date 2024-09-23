@@ -30,7 +30,7 @@ Interactive Visualizations 📈: Enjoy interactive visualizations of user contri
 
 React - A powerful JavaScript library for building user interfaces.
 
-Redux (optional) - State management for React applications.
+Redux - State management for React applications.
 
 HTML5, CSS3, JavaScript - Frontend essentials for structure, style, and interactivity.
 
@@ -102,7 +102,7 @@ MONGO_URI=your_mongodb_connection_string
 
 npm run dev
 
-<h1>Start the frontend (if separate): </h1>
+<h1>Start the frontend 🚀: </h1>
 
 Navigate to your frontend directory.
 
@@ -110,7 +110,7 @@ Start the frontend server.
 
 <h2>Access the application: </h2>
 
-Open http://localhost:3000 in your favorite browser.
+Open http://localhost:3000 in any web browser.
 
 <h1>📡 API Endpoints </h1>
 
