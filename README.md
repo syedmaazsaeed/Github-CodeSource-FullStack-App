@@ -22,9 +22,9 @@ Real-Time Updates 🔄: Stay up-to-date with real-time updates on repository sta
 Interactive Visualizations 📈: Enjoy interactive visualizations of user contributions and repository statistics for deeper insights.
 
 
-<h1 align="center">🛠️ Technologies Used 🕵🏻</h1>
+ <h1 align="center">🛠️ Technologies Used 🕵🏻</h1>
 
-### <h1> <b>MERN Stack 🌐</b> </h1>
+   <h1> <b>MERN Stack 🌐</b> </h1>
 
 <h1>Frontend 🌈 </h1>
 
